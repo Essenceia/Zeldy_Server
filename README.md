@@ -1,5 +1,7 @@
 # Zeldy_Server
 
+Group project SERI Supelec 2018 : Tangy Renan, Simon Brelivet, Julia Desmazes
+
 ## Overview
 The backend consists of :
 - a time-series database : [InfluxDB](https://www.influxdata.com/)
@@ -20,3 +22,7 @@ The backend consists of :
 ## Make it survive
 Have it start as a background task with `docker-compose up -d`. It should survive reboots as is.
 You may have to launch the docker daemon, and enable it at boot : `systemctl start docker` and `systemctl enable docker`
+
+## License
+
+This code is released under the GNU GPL v3 public license.
